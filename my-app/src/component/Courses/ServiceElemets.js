@@ -1,5 +1,6 @@
 
 import styled from "styled-components";
+import { Link as LinkR} from 'react-router-dom'
 
 export const ServiceContainer = styled.div`
 height:800px;
@@ -90,4 +91,24 @@ export const ServiceP=styled.p`
 color: #438172;
 font-size:1rem;
 margin-bottom:10px;
+`
+
+
+
+export const Button_course= styled.button`
+border-radius:50px;
+background: #363A3C;;
+
+
+
+font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+outline:none;
+border:none;
+cursor:pointer;
+
+width:100px;
+height:30px;
+`;
+export const Btn_Link=styled(LinkR)`
+color:#fff;
 `

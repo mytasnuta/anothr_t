@@ -15,6 +15,8 @@ import {
         ImgWrap,
         
      } from './Anotherporton'
+
+
  const AnotherInfoSection = ({lightText,
     topline,
     imgStart,
@@ -30,7 +32,7 @@ import {
     dark,
     dark2}) => {
     return (
-        
+       
          <InfoContainer LightBg={LightBg} id={id} >
             <InfoWrapper>
                 <InfoRow imgStart={imgStart}>

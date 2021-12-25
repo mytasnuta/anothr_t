@@ -1,4 +1,5 @@
 import React from 'react';
+
 import LiveIcone from '../../images/live_img.png' 
 import Icone from '../../images/picture1.png' 
 import Iconetwo from '../../images/picture1.png'
@@ -9,11 +10,13 @@ import { ServiceContainer,
          Image,
          ServicesH2,
          ServiceP,
+         Button_course,Btn_Link,
          AnotherImage} from './ServiceElemets'
 
  const Services = () => {
     return (
         <ServiceContainer id="serivces">
+          
            <ServiceWrapper>
              <ServiceCard>
              <AnotherImage src={LiveIcone}  />
@@ -21,6 +24,9 @@ import { ServiceContainer,
              <ServicesH2>Finance for Non-finance Managers</ServicesH2>
              <ServiceP>$350</ServiceP>
              <p>45 videos</p>
+             <Button_course>
+             <Btn_Link to="/another">Join Now</Btn_Link>
+             </Button_course>
              </ServiceCard>
 
              <ServiceCard>
@@ -29,6 +35,9 @@ import { ServiceContainer,
              <ServicesH2>Finance for Non-finance Managers</ServicesH2>
              <ServiceP>$350</ServiceP>
              <p>35 videos</p>
+             <Button_course>
+             <Btn_Link to="/another">Join Now</Btn_Link>
+             </Button_course>
              </ServiceCard>
 
              <ServiceCard>
@@ -36,6 +45,9 @@ import { ServiceContainer,
              <ServicesH2>Finance for Non-finance Managers</ServicesH2>
              <ServiceP>350</ServiceP>
              <p>45 videos</p>
+             <Button_course>
+             <Btn_Link to="/another">Join Now</Btn_Link>
+             </Button_course>
              </ServiceCard>
 
              <ServiceCard>
@@ -44,6 +56,9 @@ import { ServiceContainer,
              <ServicesH2>Finance for Non-finance Managers</ServicesH2>
              <ServiceP>350</ServiceP>
              <p>45 videos</p>
+             <Button_course>
+             <Btn_Link to="/another">Join Now</Btn_Link>
+             </Button_course>
              </ServiceCard>
 
              <ServiceCard>
@@ -51,6 +66,9 @@ import { ServiceContainer,
              <ServicesH2>Finance for Non-finance Managers</ServicesH2>
              <ServiceP>350</ServiceP>
              <p>45 videos</p>
+             {/* <Button_course>
+             <Btn_Link to="/another">Join Now</Btn_Link>
+             </Button_course> */}
              </ServiceCard>
 
              <ServiceCard>
@@ -59,6 +77,9 @@ import { ServiceContainer,
              <ServicesH2>Finance for Non-finance Managers</ServicesH2>
              <ServiceP>350</ServiceP>
              <p>45 videos</p>
+             <Button_course>
+             <Btn_Link to="/another">Join Now</Btn_Link>
+             </Button_course>
              </ServiceCard>
 
         
