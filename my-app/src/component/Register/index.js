@@ -9,19 +9,16 @@ const Register = () => {
           <FormWrap>
           <FormContent>
              <NewForm action="#">
-             <FormH1>Register To login in account
-                      </FormH1>
+             <FormH1>LOG IN</FormH1>
                       <FormLabel htmlfor='for'>Email</FormLabel>
                       <FormInput type='email'/>
                       <FormLabel htmlfor='for'>Name</FormLabel>
                       <FormInput type='text'/>
-                      <FormLabel htmlfor='for'>Location</FormLabel>
-                      <FormInput type='text'/>
-                      <FormLabel htmlfor='for'>Mobile</FormLabel>
-                      <FormInput type='number'/>
+                      
+                      
                       <FormLabel type='password'>Password</FormLabel>
                       <FormInput type='password'/>
-                      <FormButton type='submit'>Continue</FormButton>
+                      <FormButton type='submit'>SIGN UP</FormButton>
                       <Text>Forget Password</Text>
              </NewForm>
             

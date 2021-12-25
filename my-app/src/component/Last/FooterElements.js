@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 
 export const FooterContainer=styled.footer`
+margin-top:70px;
 background-color:#01BF71;
 `
 
@@ -69,4 +70,11 @@ font-size:17px;
     color:#01bf71;
     transition:0.3s ease-out;
    }
+`
+
+export const Footer_text = styled.h4`
+color:#000;
+text-decoration:none;
+margin-left:550px;
+
 `

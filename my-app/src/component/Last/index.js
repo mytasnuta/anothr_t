@@ -2,7 +2,7 @@ import React from 'react'
 import {FooterContainer,
     FooterWrap,FooterLinksContainer,
     FooterLinkItems,FooterLinkTitle,
-    FooterLink
+    FooterLink,Footer_text
 } from './FooterElements'
    
 
@@ -56,10 +56,13 @@ import {FooterContainer,
                          <FooterLink>Students</FooterLink>   
                          <FooterLink>Terms $ services </FooterLink> 
               </FooterLinkItems>
-
+                   
               </FooterLinksContainer>
              </FooterWrap>
+             <Footer_text>
+              <h4>Copyright © 2021 Tutor Point All Rights Reserved</h4>
 
+              </Footer_text>
        </FooterContainer>
     )
 }

@@ -9,10 +9,11 @@ import ContactList from "./component/ContactList";
 import './App.css';
 import Header from "./component/Header";
 import Home from './pages/index'
-// import RegistrationPage from './pages/newregisterpage'
+import RegistrationPage from './pages/newregisterpage'
 import CouseVideoLecture from './pages/singlecourse'
 import Anter from './pages/another'
 import Navbar from "./component/Navbar";
+import LoginPage from "./pages/register";
 import Footer from "./component/Last";
 import Info from "./pages/newregisterpage";
 import Registrationnewpage from "./pages/newregisterpage"
@@ -39,33 +40,11 @@ function App() {
   useEffect(()=>{
     localStorage.setItem(LOCAL_STORAGE_KEY,JSON.stringify(contacts));
   }, [contacts]);
-  // /*new added*/
-  // const LOCAL_STORAGE_KEY = "contacts";
-  // const [contacts, setContacts] = useState([]);
+  
 
-  // const addContactHandler = (contact) => {
-  //   console.log(contact);
-  //   setContacts([...contacts,{id: uuidv4(), ...contact} ]);
-  // };
+  
 
-  // const removeContactHandler = (id) => {
-  //   const newContactList = contacts.filter((contact) => {
-  //     return contact.id !== id;
-  //   });
 
-  //   setContacts(newContactList);
-  // };
-
-  // useEffect(() => {
-  //   const retriveContacts = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
-  //   if (retriveContacts) setContacts(retriveContacts);
-  // }, []);
-
-  // useEffect(() => {
-  //   localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(contacts));
-  // }, [contacts]);
-
-   /*new added*/
   return (
       
     <Router>
@@ -73,7 +52,8 @@ function App() {
       <Switch>
  
           <Route path="/" exact component={Home} />
-          {/* <Route path="/register" exact component={RegistrationPage} /> */}
+          <Route path="/register" exact component={RegistrationPage} />
+          <Route path="/login" exact component={LoginPage} />
           <Route path="/singlepage" exact component={CouseVideoLecture} />
           <Route path="/another" exact component={Anter} />
           <Route path="/regpage" exact component={Registrationnewpage} />
@@ -83,7 +63,7 @@ function App() {
         <Navbar/>
        <Header />
           <Route
-            path="/cont"
+            path="/jobbord"
             exact
             render={(props) => (
               <ContactList

@@ -82,7 +82,7 @@ import { ServiceContainer,
              </Button_course>
              </ServiceCard>
 
-        
+
            </ServiceWrapper>
         </ServiceContainer>
     )

@@ -107,15 +107,22 @@ margin-bottom:80px;
 
 
 export const Button_course= styled.button`
-border-radius:50px;
-background: #363A3C;;
+// border-radius:50px;
+// background: #363A3C;;
 font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
 outline:none;
 border:none;
 cursor:pointer;
 
-width:100px;
-height:30px;
+width:150px;
+height:40px;
+
+
+left: 173px;
+top: 1006px;
+
+background: #84D19F;
+border-radius: 0px 30px;
 `;
 export const Btn_Link=styled(LinkR)`
 color:#fff;

@@ -14,10 +14,12 @@ margin-top:60px;
 margin-bottom:60px;
 background:liner-gradient(
     108deg,
-    rgba(1, 147, 86, 1) 0%;
+    rgba(1, 147, 86, 1) 100%;
     rgba(10, 201, 122, 1) 100%;
 
-)`
+)
+
+`
 
 export const FormWrap=styled.div`
 height:100%;
@@ -60,7 +62,7 @@ display:grid;
 margin: 0 auto;
 padding:80px 32px;
 border-radius:4px ;
-box-shadow:0 1px 3px rgba(0, 0, 0, 0.9);
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
 
 @media screen and (max-width:400px){
    padding:32px 32px;

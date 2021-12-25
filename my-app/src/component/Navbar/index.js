@@ -26,18 +26,23 @@ const Navbar = () => {
                        <FaBars />
                    </MobileIcone>  
                   <Navmenu>
-                      <NavItem>
-                         <NavLinks to="/">HOME</NavLinks> 
-                      </NavItem>
+                     <NavBtn>
+                      <NavBtn_Link to="/">HOME</NavBtn_Link> 
+                      </NavBtn>
+                      
                       <NavBtn>
-                         <NavBtn_Link to="/cont">JOB BOARD</NavBtn_Link> 
+                         <NavBtn_Link to="/jobbord">JOB BOARD</NavBtn_Link> 
                       </NavBtn>
                       <NavItem>
                          <NavLinks to="services">COURSES</NavLinks> 
                       </NavItem>
-                      <NavItem>
+                      <NavBtn>
+                         <NavBtn_Link to="/login">LOGIN</NavBtn_Link> 
+                      </NavBtn>
+
+                      {/* <NavItem>
                          <NavLinks to="/login">LOGIN</NavLinks> 
-                      </NavItem>
+                      </NavItem> */}
                   </Navmenu>
                   <NavBtn>
                       <NavBtnLink to="/regpage">REGISTRATION</NavBtnLink>

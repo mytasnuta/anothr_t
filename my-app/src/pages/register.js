@@ -9,7 +9,7 @@ import Navbar from '../component/Navbar'
 
 
 
-const RegistrationPage = () => {
+const LoginPage = () => {
     return (
             <div>
                <Navbar/>
@@ -25,4 +25,4 @@ const RegistrationPage = () => {
     )
 }
 
-export default RegistrationPage
+export default LoginPage 
